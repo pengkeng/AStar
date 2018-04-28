@@ -1,25 +1,20 @@
 package com.example.pqc.a;
 
-import android.content.Context;
-import android.net.Uri;
+
 import android.os.Bundle;
-import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.pqc.a.As.Astar;
 import com.example.pqc.a.As.MapInfo;
 import com.example.pqc.a.As.Node;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
+
 
 
 public class ButtonFragment extends Fragment {
