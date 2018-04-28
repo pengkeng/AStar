@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/button_fragment"
+    android:orientation="vertical">
+
+   <Button
+       android:layout_marginTop="150dp"
+       android:layout_gravity="center"
+       android:id="@+id/start"
+       android:text="开始"
+       android:textSize="50dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+    />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_marginTop="50dp"
+        android:text="还原"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:text="运行时间"
+        android:textSize="30dp"
+        android:layout_width="130dp"
+        android:layout_height="40dp" />
+        <TextView
+            android:text="0 ms"
+            android:id="@+id/runtime"
+            android:textSize="30dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>
